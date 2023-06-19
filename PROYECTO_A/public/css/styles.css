@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Open Sans",sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -13,24 +14,26 @@ header{
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
 }
-
-body{
-    padding: 10px;
-    height: 75%;
-}
-
 
 .menu{
     display: flex;
-    align-content: flex-end;
 }
 
-.menu-header{
+header .menu-header{
     display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: flex-end;
+
 }
 
+header .logo{
+    width: 18%;
+    margin-left: 2%;
+}
 
 .menu-opciones{
     text-decoration: none;
@@ -63,7 +66,13 @@ body{
     padding: 5px
 }
 
+body{
+    padding: 10px;
+    height: 85%;
+}
+
 .icono{
+    z-index: 20;
     bottom: 20px;
     right: 20px;
     position: fixed;
@@ -90,6 +99,7 @@ body{
 }
 
 footer{
+    z-index: 1;
     bottom: 0;
     width: 100%;
     text-align: center;
