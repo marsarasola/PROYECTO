@@ -65,7 +65,9 @@ header{
     border-radius: 100% ;
     border: solid #27cd40;
 }
-
+.icono button :hover{
+    cursor: pointer;
+}
 .icono button i{
     color: white;
     font-size: 30px;
