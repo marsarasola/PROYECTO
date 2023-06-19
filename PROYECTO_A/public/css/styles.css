@@ -10,7 +10,7 @@
 
 header{
     display: flex;
-    flex-direction: row;
+    
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
@@ -24,7 +24,6 @@ body{
 
 
 .menu{
-    background-color: rgba(244, 244, 244, 0.773);
     display: flex;
     align-content: flex-end;
 }
@@ -38,11 +37,11 @@ body{
     text-decoration: none;
     color: black ;
     margin: 7px;
+    font-weight: bold;
 }
 
 .menu-opciones:hover{
-    background-color: rgb(229, 229, 229);
-    font-size: 17px;
+    color: rgb(100, 94, 94);
 }
 
 .boton-anadir{
