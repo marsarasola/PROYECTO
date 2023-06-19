@@ -127,6 +127,10 @@ footer .container .servicio ul li a:hover{
     color: rgb(115, 115, 115);
 }
 
+.counter-result{
+    display: block;
+}
+
 @media(min-width:700px){
     
     .container{
