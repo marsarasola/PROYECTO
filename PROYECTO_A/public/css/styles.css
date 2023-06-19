@@ -14,12 +14,17 @@ header{
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
+    justify-content: space-around;
     font-size: 16px;
-    height: 15vh;
+}
+
+body{
+    padding: 10px;
+    height: 75%;
 }
 
 header img{
-   margin-left: 2px;
+   margin-right: 100px;
 }
 
 .menu{
@@ -27,6 +32,12 @@ header img{
     display: flex;
     align-content: flex-end;
 }
+
+.menu-header{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 .menu-opciones{
     text-decoration: none;
@@ -91,10 +102,9 @@ footer{
     text-align: center;
     margin-top: 100px;
     position: absolute;
-    height: 8rem;
+    height: 15rem;
     font-size: 14px;
     background-color: #f9f9f9 ;
-    font-family: open sanz;
 }
 
 .container{
@@ -102,7 +112,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 30px;
+    
 }
 
 .contacto , .servicio{
