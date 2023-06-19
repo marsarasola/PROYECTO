@@ -12,6 +12,7 @@ header{
     justify-content: space-around;
     align-items: center;
     font-size: 16px;
+    margin: 15px;
 }
 
 .menu{
@@ -84,17 +85,17 @@ footer{
     font-size: 14px;
 }
 
+
 .container{
     display: flex;
     justify-content: center;
-    gap: 5rem;
-    text-align: left;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .contacto , .servicio{
-    width: 30%;
     height: auto;
-    margin-bottom: 50px;
 }
 
 ul{
@@ -124,4 +125,22 @@ footer .container .servicio ul li a:hover{
 
 .p{
     color: rgb(115, 115, 115);
+}
+
+@media(min-width:700px){
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+        text-align: left;
+    }
+    
+    .contacto , .servicio{
+        width: 30%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
 }
