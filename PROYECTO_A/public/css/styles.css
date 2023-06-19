@@ -19,6 +19,10 @@ header{
     margin: 15px;
 }
 
+header img{
+    position: absolute;
+    margin-left: 2px;
+}
 .menu{
     background-color: rgba(244, 244, 244, 0.773);
 }
