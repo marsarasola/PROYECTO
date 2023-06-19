@@ -12,19 +12,20 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
     width: 100%;
     align-items: center;
     font-size: 16px;
-    margin: 15px;
+    height: 15vh;
 }
 
 header img{
-    position: absolute;
-    margin-left: 2px;
+   margin-left: 2px;
 }
+
 .menu{
     background-color: rgba(244, 244, 244, 0.773);
+    display: flex;
+    align-content: flex-end;
 }
 
 .menu-opciones{
@@ -90,6 +91,7 @@ footer{
     text-align: center;
     margin-top: 100px;
     position: absolute;
+    height: 8rem;
     font-size: 14px;
     background-color: #f9f9f9 ;
     font-family: open sanz;
