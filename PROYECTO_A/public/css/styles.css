@@ -132,7 +132,7 @@ footer .container .servicio ul li a:hover{
 }
 
 
-@media(min-width:700px){
+@media(min-width:900px){
     
     .container{
         display: flex;
