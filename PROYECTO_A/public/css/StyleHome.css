@@ -47,7 +47,7 @@
     align-items: center;
 }
 
-@media(min-width:700px){
+@media(min-width:800px){
     .disp{
         display: flex;
         flex-direction: row;
