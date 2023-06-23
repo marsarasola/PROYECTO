@@ -158,7 +158,7 @@ footer .container .servicio ul li a:hover{
     margin: 4%;
 }
 
-.back{
+.back i{
     height: 30px;
     width: 30px;
     display: flex;
@@ -169,6 +169,11 @@ footer .container .servicio ul li a:hover{
     border-radius: 100% ;
     border: solid #000000;
     color: black;
+}
+
+.back{
+    border: white;
+    background-color: #ffffff;
 }
 
 .back :hover{
