@@ -1,6 +1,6 @@
 function ajax(){
     const http = new XMLHttpRequest();
-    const url = 'https://marsarasola.github.io/JSON-MENU/main.js/';
+    const url = 'https://marsarasola.github.io/JSON-MENU/';
 
     http.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
