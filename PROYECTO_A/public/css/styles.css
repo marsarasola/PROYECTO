@@ -272,7 +272,7 @@ header .logo{
 		display: block;
 	}
 
-	 header nav ul li:hover .children {
+	header nav ul li:hover .children {
 		display: none;
 	}
 
